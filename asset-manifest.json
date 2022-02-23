@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/AnnaYegorova/goit-react-hw-01-components/static/css/main.7acaea2f.css",
-    "main.js": "/AnnaYegorova/goit-react-hw-01-components/static/js/main.eeab5724.js",
-    "static/js/787.6b7abe35.chunk.js": "/AnnaYegorova/goit-react-hw-01-components/static/js/787.6b7abe35.chunk.js",
+    "main.js": "/AnnaYegorova/goit-react-hw-01-components/static/js/main.b3f27374.js",
+    "static/js/787.84e13687.chunk.js": "/AnnaYegorova/goit-react-hw-01-components/static/js/787.84e13687.chunk.js",
     "index.html": "/AnnaYegorova/goit-react-hw-01-components/index.html",
     "main.7acaea2f.css.map": "/AnnaYegorova/goit-react-hw-01-components/static/css/main.7acaea2f.css.map",
-    "main.eeab5724.js.map": "/AnnaYegorova/goit-react-hw-01-components/static/js/main.eeab5724.js.map",
-    "787.6b7abe35.chunk.js.map": "/AnnaYegorova/goit-react-hw-01-components/static/js/787.6b7abe35.chunk.js.map"
+    "main.b3f27374.js.map": "/AnnaYegorova/goit-react-hw-01-components/static/js/main.b3f27374.js.map",
+    "787.84e13687.chunk.js.map": "/AnnaYegorova/goit-react-hw-01-components/static/js/787.84e13687.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.eeab5724.js"
+    "static/js/main.b3f27374.js"
   ]
 }
