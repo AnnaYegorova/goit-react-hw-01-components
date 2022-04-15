@@ -12,6 +12,7 @@ import {
   Quantity,
 } from './Profile.styled';
 export const Profile = ({ username, avatar, tag, location, stats }) => {
+  const { followers, views, likes } = stats;
   return (
     <Card>
       <Description>
@@ -25,15 +26,15 @@ export const Profile = ({ username, avatar, tag, location, stats }) => {
         <Stats>
           <ListStats>
             <Label>Followers </Label>
-            <Quantity>{stats.followers} </Quantity>
+            <Quantity>{followers} </Quantity>
           </ListStats>
           <ListStats>
             <Label>Views </Label>
-            <Quantity>{stats.views} </Quantity>
+            <Quantity>{views} </Quantity>
           </ListStats>
           <ListStats>
             <Label>Likes </Label>
-            <Quantity>{stats.likes} </Quantity>
+            <Quantity>{likes} </Quantity>
           </ListStats>
         </Stats>
       </Container>
@@ -47,10 +48,10 @@ Profile.prototype = {
   tag: PropTypes.string.isRequired,
   location: PropTypes.string.isRequired,
   stats: PropTypes.arrayOf(
-    PropTypes.exact({
+    PropTypes.shape({
       followers: PropTypes.number.isRequired,
       views: PropTypes.number.isRequired,
       likes: PropTypes.number.isRequired,
-    })
+    }).isRequired
   ).isRequired,
 };
